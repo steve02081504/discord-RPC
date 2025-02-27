@@ -15,7 +15,7 @@
 
 ### [Documentation](https://discord.js.org/#/docs/rpc/)
 
-### [Rich Presence Example](https://github.com/discordjs/RPC/blob/master/example)
+### [Rich Presence Example](https://github.com/steve02081504/discord-RPC/blob/master/example)
 
 ### __Browser__ Example
 

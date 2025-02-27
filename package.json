@@ -1,6 +1,6 @@
 {
   "name": "discord-rpc",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "description": "A simple RPC client for Discord",
   "keywords": [
     "discord",
@@ -13,27 +13,27 @@
   "unpkg": "browser.js",
   "author": "snek <me@gus.host>",
   "license": "MIT",
-  "homepage": "https://github.com/discordjs/RPC#readme",
+  "homepage": "https://github.com/steve02081504/discord-RPC#readme",
   "bugs": {
-    "url": "https://github.com/discordjs/RPC/issues"
+    "url": "https://github.com/steve02081504/discord-RPC/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/discordjs/RPC.git"
+    "url": "git+https://github.com/steve02081504/discord-RPC.git"
   },
   "scripts": {
     "lint": "eslint src test --ext=js",
     "docs": "mkdir -p docs-out && docgen --source src --output docs-out/master.json --jsdoc jsdoc.json --custom docgen.json",
     "example": "electron example/main.js",
     "build:browser": "webpack-cli",
-    "prepublishOnly": "npm run lint && npm run build:browser"
+    "prepublishOnly": "npm run build:browser"
   },
   "dependencies": {
     "node-fetch": "^2.6.1",
     "ws": "^7.3.1"
   },
   "optionalDependencies": {
-    "register-scheme": "github:devsnek/node-register-scheme"
+    "register-scheme": "latest"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
