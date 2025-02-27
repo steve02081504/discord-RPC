@@ -1,5 +1,5 @@
 {
-  "name": "discord-rpc",
+  "name": "fixed-discord-rpc",
   "version": "4.0.2",
   "description": "A simple RPC client for Discord",
   "keywords": [
